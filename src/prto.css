@@ -1,0 +1,76 @@
+@import url("https://fonts.googlespis.com/css2?family=IBM");
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: #f7f7f7;
+}
+h1{
+    margin-bottom:12px;
+}
+h2{
+    margin-left: 219px;
+    margin-bottom:12px;
+}
+.card{
+    width:1000px;
+    margin:70px;
+    border:8px solid #222;
+    border-radius: 15px;
+}
+.card::after{
+    content:"";
+    display:block;
+}
+.avatar{
+    width:20%;
+    
+    border-radius: 15px;
+    list-style:none;
+   /* display:grid;*/
+ grid-template-columns: 1fr 1fr;
+    gap: 5.8rem;
+      
+}
+.btn{
+    border-radius: 12px;
+    background-color: rgb(86, 219, 33);
+    width: 70px;
+    gap:8px;
+    margin-left: 19px;
+    border: #242353;
+   
+  
+}
+.inp{
+    margin-left: 19px;
+    display:inline-block;
+   font-size: 16px;
+   
+    
+}
+.data{
+    padding:32px;
+    padding-top:24px;
+
+}
+
+.skill-list{
+    list-style: none;
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-top:16px;
+  
+}
+.skill{
+    padding: 2px 12px;
+    border-radius: 5px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-weight:500;
+}
